@@ -2,6 +2,22 @@
 # yarn lockfile v1
 
 
+"-@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/-/-/--0.0.1.tgz#db6db7cd866142880dd03e5b8781d1b4fac0e5bd"
+
+"2@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/2/-/2-1.0.2.tgz#356a6f50b4851a311547570c616c6e8ef4b464c1"
+
+"3@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/3/-/3-2.1.0.tgz#08c61a6de22b4d35ee744b7fa2badd5180b4b4e3"
+  dependencies:
+    "2" "^1.0.2"
+    chunk-array "^1.0.2"
+    enforce-range "^1.0.0"
+
 "@babel/code-frame@7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -2467,6 +2483,10 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
 
+bootstrap@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.0.tgz#97b9f29ac98f98dfa43bf7468262d84392552fd7"
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -2826,6 +2846,10 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.2.tgz#234090ee97c7d4ad1a2c4beae27505deffc608a4"
   dependencies:
     tslib "^1.9.0"
+
+chunk-array@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/chunk-array/-/chunk-array-1.0.2.tgz#78211ff5502bc57b6c76043d8cc606a4423b79ef"
 
 ci-info@^2.0.0:
   version "2.0.0"
@@ -3739,6 +3763,12 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
   dependencies:
     once "^1.4.0"
+
+enforce-range@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/enforce-range/-/enforce-range-1.0.0.tgz#f10ccc0396e23684b413d73661d020d192e5ba70"
+  dependencies:
+    "2" "^1.0.2"
 
 enhanced-resolve@^4.3.0:
   version "4.5.0"
@@ -5780,6 +5810,10 @@ jest@26.6.0:
     import-local "^3.0.2"
     jest-cli "^26.6.0"
 
+jquery@1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-1.9.1.tgz#e4cd4835faaefbade535857613c0fc3ff2adaf34"
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -6980,6 +7014,10 @@ pnp-webpack-plugin@1.6.4:
   resolved "https://registry.yarnpkg.com/pnp-webpack-plugin/-/pnp-webpack-plugin-1.6.4.tgz#c9711ac4dc48a685dabafc86f8b6dd9f8df84149"
   dependencies:
     ts-pnp "^1.1.6"
+
+popper.js@1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
 
 portfinder@^1.0.26:
   version "1.0.28"
